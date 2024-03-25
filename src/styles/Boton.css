@@ -1,0 +1,47 @@
+.boton-contenedor{
+    height: 75px;
+    display: flex;
+    flex: 1 1;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    font-size: 38px;
+    background-color: rgb(34, 34, 34);
+    color: white;
+    border-radius: 25px;
+    border: 1px solid white;
+    margin: 4px;
+    box-shadow: 0 0 12px black;
+    cursor:pointer;
+}
+
+.boton-contenedor:hover{
+    background-color: rgb(155, 155, 155);
+}
+
+.boton-operador{
+    background-color: rgb(141, 89, 128);
+}
+
+
+.boton-clear{
+    width: 75%;
+    height: 40px;
+    background-color: rgb(199, 120, 252);
+    margin-top: 10px;
+    border-radius: 16px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 3px solid white;
+    font-size: 20px;
+    font-weight: bold;
+    font-family:Arial, Helvetica, sans-serif;
+    box-shadow: 0 0 12px black;
+    cursor:pointer;
+}
+
+.boton-clear:hover{
+    background-color:rgb(49, 3, 63);
+}
